@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else {
                 new AlertDialog.Builder(MainActivity.this).setTitle("Save recording?")
-                        .setMessage(String.format("A recording of %d bytes have been received. Save this?", totalBytes))
+                        .setMessage(String.format("A recording of %d bytes has been received. Save this?", totalBytes))
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
